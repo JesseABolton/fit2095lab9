@@ -7,4 +7,27 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'movieAng';
+
+  aPage = false;
+
+  mPage = false;
+
+  aToggle = false;
+
+  mToggle = false;
+
+
+
+  actorPage(){
+    this.aPage = !this.aPage;
+    this.aToggle = !this.aToggle;
+
+  }
+
+  moviePage(){
+    this.mPage = !this.mPage;
+    this.mToggle = !this.mToggle;
+
+  }
+
 }
